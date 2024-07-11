@@ -1,0 +1,10 @@
+#menu {
+    position: absolute;
+    left: 0;
+    top: 5px; /* Adjust as per navbar height */
+    transition: transform 0.3s ease-in-out;
+}
+
+#menu.collapsing {
+    transform: translateX(-100%);
+}
